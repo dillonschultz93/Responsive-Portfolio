@@ -265,6 +265,29 @@ button {
     .logotype {
         padding: 20px 20px;
     }
+
+    .portfolio-cell {
+        width: 190px;
+        height: 190px;
+        margin-bottom: 15px;
+    }
+
+    .cell-image {
+    width: 100%;
+    }
+
+    .portfolio-cell h3 {
+    text-align: center;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    background-color: #4eaaa4;
+    padding: 10px 0px;
+    width: 190px;
+    bottom: 50px;
+    }
 }
 
 /* Max-Width 768px */
@@ -341,7 +364,7 @@ button {
     }
 
     .content-container {
-        width: 540px;
+        width: 380px;
         margin: 30px auto;
     }
 
