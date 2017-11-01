@@ -85,7 +85,7 @@ nav a {
 }
 
 .main-card #self-portrait {
-    width: 25%;
+    width: 60%;
     padding-right: 10px;
 }
 
@@ -93,6 +93,7 @@ nav a {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     line-height: 1.5em;
     color: #777;
+    width: 100%;
 }
 
 /* Portfolio Section */
@@ -244,27 +245,38 @@ button {
         width: 100%;
     }
 
+    .logotype {
+        padding: 20px 20px;
+    }
+
     .nav-controls {
         width: 760px;
     }
 
-    nav {
-        float: right;
-    }
+    /* .main-card queries */
 
     .content-container {
         width: 760px;
         margin: 30px auto;
-        float: none;
     }
 
     .main-card {
-        width: 410px;
+        width: 55%;
     }
 
-    .logotype {
-        padding: 20px 20px;
+    /* .side-card queries */
+
+    .side-card {
+        width: 32%;
     }
+
+    /* index.html queries */
+
+    .main-card #self-portrait {
+        width: 50%;
+    }
+
+    /* portfolio.html queries */
 
     .portfolio-cell {
         width: 190px;
@@ -292,83 +304,10 @@ button {
 
 /* Max-Width 768px */
 @media only screen and  (max-width: 768px) {
-    .nav-container {
-        width: 100%;
-    }
 
-    .nav-controls {
-        width: 580px;
-        margin: 0 auto;
-    }
-
-    nav {
-        float: right;
-    }
-
-    .content-container {
-        width: 580px;
-        margin: 30px auto;
-    }
-
-    .main-card {
-        width: 100%;
-    }
-
-    .side-card {
-        float: left;
-        width: 100%;
-    }
-
-    .icons-container {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .social-icon {
-        width: 10%;
-        margin: 0 auto;
-    }
 }
 
 /* Max-Width 640px */
 @media only screen and (max-width: 640px) {
-    .nav-container {
-        width: 100%;
-    }
 
-    .nav-controls {
-        width: 100%;
-    }
-
-    .logotype {
-        width: 100%;
-        position: static;
-        margin: 0 auto;
-        margin-bottom: 10px;
-    }
-
-    nav {
-        position: static;
-        width: 380px;
-        margin: 0 auto;
-    }
-
-    .spread-nav-items {
-        margin: 0px 30px;
-        border: 0px;
-    }
-
-    .clear-mobile-nav {
-        clear: both;
-        width: 100%;
-    }
-
-    .content-container {
-        width: 380px;
-        margin: 30px auto;
-    }
-
-    .main-card {
-        width: 100%;
-    }
 }
